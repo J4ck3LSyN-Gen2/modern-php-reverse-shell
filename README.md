@@ -1,1 +1,1 @@
-# A modernized play off of the PentestMonkey PHP Reverse Shell W/ Meterpreter Capabilities
+# A Modernized PHP Reverse Shell
