@@ -3,7 +3,7 @@
 A lightweight, configurable reverse shell implementation in PHP designed for post-exploitation scenarios. This script establishes a reverse connection from a compromised target to an attacker-controlled listener, enabling remote command execution with optional encryption and stealth features.
 
 > [!warning]
-> **Note:** This tool is intended for educational purposes, penetration testing, and authorized security assessments only. Unauthorized use against systems without explicit permission is illegal and unethical.
+> **Note:** This tool is intended for educational purposes, penetration testing, and authorized security assessments only. Unauthorized use against systems without explicit permission is illegal and unethical. The author of this tool is not liable for any _unauthorized_ or _illegal_ operations done with said tool.
 
 ---
 
