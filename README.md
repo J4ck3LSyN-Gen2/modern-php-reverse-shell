@@ -11,6 +11,12 @@
 
 - **J4ck3LSyN**
 - Version: `0.6.0`
+
+---
+
+> Update incoming for implementation of the next edition along side lab testing environments.
+>
+> _NOTE_ A tool will be developed for malum to further implement the tools kit.
   
 ---
 
