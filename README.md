@@ -16,7 +16,7 @@
 
 > Update incoming for implementation of the next edition along side lab testing environments.
 >
-> _NOTE_ A tool will be developed for malum to further implement the tools kit.
+> _NOTE_ A tool will be developed for malum to further implementation.
   
 ---
 
